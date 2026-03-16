@@ -1,13 +1,22 @@
-import { Component, EventEmitter, Input, OnInit, Output, ViewChild, OnChanges, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  Output,
+  ViewChild,
+  OnChanges,
+  SimpleChanges,
+} from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { ColumnConfiguration, TableAction } from '../../models/table.model';
+import { ColumnConfiguration, TableAction } from '@models/table.model';
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
-  styleUrls: ['./table.component.scss']
+  styleUrls: ['./table.component.scss'],
 })
 export class TableComponent<T> implements OnInit, OnChanges {
   @Input() data: T[] = [];
@@ -16,7 +25,7 @@ export class TableComponent<T> implements OnInit, OnChanges {
   @Input() showFilter: boolean = true;
   @Input() filterPlaceholder: string = 'Filter';
 
-  @Output() actionClicked = new EventEmitter<{ action: string, row: T }>();
+  @Output() actionClicked = new EventEmitter<{ action: string; row: T }>();
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -24,7 +33,7 @@ export class TableComponent<T> implements OnInit, OnChanges {
   dataSource: MatTableDataSource<T> = new MatTableDataSource<T>([]);
   displayedColumns: string[] = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     this.updateTable();
@@ -38,8 +47,8 @@ export class TableComponent<T> implements OnInit, OnChanges {
 
   private updateTable(): void {
     this.dataSource.data = this.data;
-    this.displayedColumns = this.columns.map(c => c.key);
-    
+    this.displayedColumns = this.columns.map((c) => c.key);
+
     if (this.actions && this.actions.length > 0) {
       this.displayedColumns.push('actions');
     }

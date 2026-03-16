@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ColumnConfiguration, TableAction } from '../../models/table.model';
-import { Author } from '../../models/author.model';
+import { ColumnConfiguration, TableAction } from '@models/table.model';
+import { Author } from '@models/author.model';
 
 @Component({
   selector: 'app-authors',

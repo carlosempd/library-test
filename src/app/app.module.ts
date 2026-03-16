@@ -20,14 +20,14 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 // Pages
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { AuthorsComponent } from './pages/authors/authors.component';
-import { BooksComponent } from './pages/books/books.component';
+import { DashboardComponent } from '@pages/dashboard/dashboard.component';
+import { AuthorsComponent } from '@pages/authors/authors.component';
+import { BooksComponent } from '@pages/books/books.component';
 
 // Components
-import { TopbarComponent } from './components/topbar/topbar.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { TableComponent } from './components/table/table.component';
+import { TopbarComponent } from '@components/topbar/topbar.component';
+import { SidebarComponent } from '@components/sidebar/sidebar.component';
+import { TableComponent } from '@components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,7 @@ import { TableComponent } from './components/table/table.component';
     BooksComponent,
     TopbarComponent,
     SidebarComponent,
-    TableComponent
+    TableComponent,
   ],
   imports: [
     BrowserModule,
