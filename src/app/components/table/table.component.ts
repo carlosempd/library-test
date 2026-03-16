@@ -7,18 +7,21 @@ import {
   ViewChild,
   OnChanges,
   SimpleChanges,
+  OnDestroy,
 } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { ColumnConfiguration, TableAction } from '@models/table.model';
+import { Subject, Subscription } from 'rxjs';
+import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss'],
 })
-export class TableComponent<T> implements OnInit, OnChanges {
+export class TableComponent<T> implements OnInit, OnChanges, OnDestroy {
   @Input() data: T[] = [];
   @Input() columns: ColumnConfiguration[] = [];
   @Input() actions: TableAction[] = [];
@@ -26,6 +29,7 @@ export class TableComponent<T> implements OnInit, OnChanges {
   @Input() filterPlaceholder: string = 'Filter';
 
   @Output() actionClicked = new EventEmitter<{ action: string; row: T }>();
+  @Output() filterChanged = new EventEmitter<string>();
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -34,10 +38,19 @@ export class TableComponent<T> implements OnInit, OnChanges {
   displayedColumns: string[] = [];
   currentFilter: string = '';
 
+  private searchSubject = new Subject<string>();
+  private searchSubscription!: Subscription;
+
   constructor() {}
 
   ngOnInit(): void {
     this.updateTable();
+
+    this.searchSubscription = this.searchSubject
+      .pipe(debounceTime(300), distinctUntilChanged())
+      .subscribe((filterValue) => {
+        this.executeFilter(filterValue);
+      });
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -69,11 +82,23 @@ export class TableComponent<T> implements OnInit, OnChanges {
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
+    this.searchSubject.next(filterValue);
+  }
+
+  private executeFilter(filterValue: string) {
     this.currentFilter = filterValue;
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
+    }
+
+    this.filterChanged.emit(filterValue);
+  }
+
+  ngOnDestroy(): void {
+    if (this.searchSubscription) {
+      this.searchSubscription.unsubscribe();
     }
   }
 
