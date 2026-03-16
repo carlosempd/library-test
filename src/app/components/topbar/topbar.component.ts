@@ -23,6 +23,10 @@ export class TopbarComponent {
     console.log('Logging out and resetting data...');
     this.authorService.resetData();
     this.bookService.resetData();
+    this.reloadPage();
+  }
+
+  reloadPage() {
     window.location.reload();
   }
 }
