@@ -10,17 +10,37 @@ import { Book } from '@models/book.model';
 export class BookService {
   private books: Book[] = [];
   private dataLoaded = false;
+  private readonly STORAGE_KEY = 'library_books';
 
   constructor(private http: HttpClient) {}
+
+  private saveToStorage(): void {
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.books));
+  }
+
+  resetData(): void {
+    localStorage.removeItem(this.STORAGE_KEY);
+    this.books = [];
+    this.dataLoaded = false;
+  }
 
   private ensureDataLoaded(): Observable<Book[]> {
     if (this.dataLoaded) {
       return of(this.books);
     }
+
+    const storedData = localStorage.getItem(this.STORAGE_KEY);
+    if (storedData) {
+      this.books = JSON.parse(storedData);
+      this.dataLoaded = true;
+      return of(this.books);
+    }
+
     return this.http.get<Book[]>('assets/data/books.json').pipe(
       tap((data) => {
         this.books = data;
         this.dataLoaded = true;
+        this.saveToStorage();
       }),
     );
   }
@@ -49,6 +69,7 @@ export class BookService {
             : 1;
         const newBook = { ...book, id: newId, registeredAt: new Date() } as Book;
         this.books = [newBook, ...this.books];
+        this.saveToStorage();
         return newBook;
       }),
     );
@@ -61,6 +82,7 @@ export class BookService {
         const index = this.books.findIndex((b) => b.id === book.id);
         if (index !== -1) {
           this.books[index] = book;
+          this.saveToStorage();
         }
       }),
       map(() => book),
@@ -72,6 +94,7 @@ export class BookService {
       delay(500),
       tap(() => {
         this.books = this.books.filter((b) => b.id !== id);
+        this.saveToStorage();
       }),
       map(() => undefined),
     );

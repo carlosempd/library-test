@@ -11,13 +11,14 @@
   </div>
   <mat-progress-bar mode="indeterminate" *ngIf="loading"></mat-progress-bar>
 
-  <app-table
-    *ngIf="!loading"
-    [data]="authors"
-    [columns]="columns"
-    [actions]="actions"
-    filterPlaceholder="Search authors..."
-    (actionClicked)="onActionClicked($event)"
-  >
-  </app-table>
+  <div class="table-container" [class.loading-state]="loading">
+    <app-table
+      [data]="authors"
+      [columns]="columns"
+      [actions]="actions"
+      filterPlaceholder="Search authors..."
+      (actionClicked)="onActionClicked($event)"
+    >
+    </app-table>
+  </div>
 </div>

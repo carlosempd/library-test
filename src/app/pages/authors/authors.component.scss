@@ -18,3 +18,16 @@
     margin-top: 4px;
   }
 }
+
+.table-container {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: opacity 0.3s ease;
+
+  &.loading-state {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+}

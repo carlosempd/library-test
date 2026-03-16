@@ -10,17 +10,37 @@ import { Author } from '@models/author.model';
 export class AuthorService {
   private authors: Author[] = [];
   private dataLoaded = false;
+  private readonly STORAGE_KEY = 'library_authors';
 
   constructor(private http: HttpClient) {}
+
+  private saveToStorage(): void {
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.authors));
+  }
+
+  resetData(): void {
+    localStorage.removeItem(this.STORAGE_KEY);
+    this.authors = [];
+    this.dataLoaded = false;
+  }
 
   private ensureDataLoaded(): Observable<Author[]> {
     if (this.dataLoaded) {
       return of(this.authors);
     }
+
+    const storedData = localStorage.getItem(this.STORAGE_KEY);
+    if (storedData) {
+      this.authors = JSON.parse(storedData);
+      this.dataLoaded = true;
+      return of(this.authors);
+    }
+
     return this.http.get<Author[]>('assets/data/authors.json').pipe(
       tap((data) => {
         this.authors = data;
         this.dataLoaded = true;
+        this.saveToStorage();
       }),
     );
   }
@@ -49,6 +69,7 @@ export class AuthorService {
             : 1;
         const newAuthor = { ...author, id: newId } as Author;
         this.authors = [newAuthor, ...this.authors];
+        this.saveToStorage();
         return newAuthor;
       }),
     );
@@ -61,6 +82,7 @@ export class AuthorService {
         const index = this.authors.findIndex((a) => a.id === author.id);
         if (index !== -1) {
           this.authors[index] = author;
+          this.saveToStorage();
         }
       }),
       map(() => author),
@@ -72,6 +94,7 @@ export class AuthorService {
       delay(500),
       tap(() => {
         this.authors = this.authors.filter((a) => a.id !== id);
+        this.saveToStorage();
       }),
       map(() => undefined),
     );

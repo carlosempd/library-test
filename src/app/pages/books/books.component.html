@@ -5,8 +5,9 @@
       Add New Book
     </button>
   </div>
+  <mat-progress-bar mode="indeterminate" *ngIf="loading"></mat-progress-bar>
 
-  <div class="table-container">
+  <div class="table-container" [class.loading-state]="loading">
     <app-table
       [data]="filteredBooks"
       [columns]="columns"
