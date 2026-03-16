@@ -29,6 +29,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.loadDashboardData();
+    this.generateInitialHistory();
     this.startLiveSimulation();
   }
 
@@ -36,6 +37,26 @@ export class DashboardComponent implements OnInit, OnDestroy {
     if (this.dataSubscription) {
       this.dataSubscription.unsubscribe();
     }
+  }
+
+  private generateInitialHistory() {
+    const now = Date.now();
+    const halfHourAgo = now - 0.5 * 60 * 60 * 1000;
+    const intervalMs = 5000;
+
+    for (let time = halfHourAgo; time < now; time += intervalMs) {
+      const newRegisters =
+        Math.floor(Math.random() * (12000 - 4000 + 1)) + 4000;
+      this.registerHistory.push([time, newRegisters]);
+    }
+
+    this.numberOfRegisters = this.registerHistory.reduce(
+      (sum, [_, count]) => sum + count,
+      0,
+    );
+
+    this.booksRegisterControlChartOptions =
+      this.dashboardService.getBookRegisterControlOptions(this.registerHistory);
   }
 
   private startLiveSimulation() {

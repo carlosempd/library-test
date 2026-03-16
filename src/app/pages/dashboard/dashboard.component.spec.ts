@@ -1,4 +1,9 @@
-import { ComponentFixture, TestBed, fakeAsync, tick } from '@angular/core/testing';
+import {
+  ComponentFixture,
+  TestBed,
+  fakeAsync,
+  tick,
+} from '@angular/core/testing';
 import { DashboardComponent } from './dashboard.component';
 import { BookService } from '@services/book.service';
 import { AuthorService } from '@services/author.service';
@@ -22,7 +27,7 @@ describe('DashboardComponent', () => {
       'getBooksPerYearOptions',
       'getBookRegisterControlOptions',
       'getPublishedStatusOptions',
-      'getGenreOptions'
+      'getGenreOptions',
     ]);
 
     bookServiceSpy.getBooks.and.returnValue(of([]));
@@ -34,14 +39,14 @@ describe('DashboardComponent', () => {
         NgxEchartsModule.forRoot({
           echarts: () => import('echarts'),
         }),
-        MatCardModule
+        MatCardModule,
       ],
       providers: [
         { provide: BookService, useValue: bookServiceSpy },
         { provide: AuthorService, useValue: authorServiceSpy },
-        { provide: DashboardService, useValue: dashboardServiceSpy }
+        { provide: DashboardService, useValue: dashboardServiceSpy },
       ],
-      schemas: [NO_ERRORS_SCHEMA]
+      schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
   });
 
@@ -61,10 +66,24 @@ describe('DashboardComponent', () => {
     expect(dashboardServiceSpy.getBooksPerYearOptions).toHaveBeenCalled();
   });
 
+  it('should generate initial history on init', () => {
+    // Current registerHistory is pushed in ngOnInit which is called in beforeEach
+    expect(component['registerHistory'].length).toBeGreaterThan(0);
+    // half hour in 5 second intervals is 360 points
+    expect(component['registerHistory'].length).toBeGreaterThanOrEqual(359);
+    expect(component['registerHistory'].length).toBeLessThanOrEqual(361);
+    expect(component.numberOfRegisters).toBeGreaterThan(0);
+    expect(
+      dashboardServiceSpy.getBookRegisterControlOptions,
+    ).toHaveBeenCalled();
+  });
+
   it('should update number of registers during live simulation', fakeAsync(() => {
     tick(5001); // Trigger first interval
     expect(component.numberOfRegisters).toBeGreaterThan(0);
-    expect(dashboardServiceSpy.getBookRegisterControlOptions).toHaveBeenCalled();
+    expect(
+      dashboardServiceSpy.getBookRegisterControlOptions,
+    ).toHaveBeenCalled();
     component.ngOnDestroy(); // Clean up interval
   }));
 });
