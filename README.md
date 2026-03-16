@@ -33,6 +33,14 @@ The authors view contains a table with a list of authors and the following featu
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+In case you dont have Version 11 of Angular CLI installed, you can run the project using nvm:
+
+```bash
+nvm install 12.22.12
+nvm use 12.22.12
+npm start
+```
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
