@@ -32,6 +32,7 @@ export class TableComponent<T> implements OnInit, OnChanges {
 
   dataSource: MatTableDataSource<T> = new MatTableDataSource<T>([]);
   displayedColumns: string[] = [];
+  currentFilter: string = '';
 
   constructor() {}
 
@@ -68,6 +69,7 @@ export class TableComponent<T> implements OnInit, OnChanges {
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
+    this.currentFilter = filterValue;
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
     if (this.dataSource.paginator) {

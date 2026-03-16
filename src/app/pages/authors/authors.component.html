@@ -9,8 +9,10 @@
       New
     </button>
   </div>
+  <mat-progress-bar mode="indeterminate" *ngIf="loading"></mat-progress-bar>
 
   <app-table
+    *ngIf="!loading"
     [data]="authors"
     [columns]="columns"
     [actions]="actions"
