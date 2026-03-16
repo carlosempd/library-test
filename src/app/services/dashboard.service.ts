@@ -59,27 +59,68 @@ export class DashboardService {
     };
   }
 
-  getComingSoonOptions(): EChartsOption {
+  getBookRegisterControlOptions(data: [number, number][]): EChartsOption {
     return {
       title: {
-        text: 'More Insights Coming Soon',
-        left: 'center',
-        top: 'middle',
-        textStyle: {
-          color: '#999',
-          fontSize: 14,
-          fontWeight: 'normal',
+        text: 'Book register control',
+        left: 'left',
+      },
+      tooltip: {
+        trigger: 'axis',
+        formatter: (params: any) => {
+          const date = new Date(params[0].value[0]);
+          return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}<br/>Registers: ${params[0].value[1].toLocaleString()}`;
+        },
+      },
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true,
+      },
+      xAxis: {
+        type: 'time',
+        boundaryGap: false as any,
+        splitLine: {
+          show: false,
+        },
+      },
+      yAxis: {
+        type: 'value',
+        boundaryGap: [0, '100%'] as any,
+        name: 'Amount',
+        axisLabel: {
+          formatter: (value: number) => {
+            if (value >= 1000) return (value / 1000).toFixed(1) + 'k';
+            return value.toString();
+          },
         },
       },
       series: [
         {
-          type: 'pie',
-          radius: ['40%', '70%'],
-          data: [{ value: 1, name: 'TBD', itemStyle: { color: '#f0f0f0' } }],
-          label: { show: false },
-          silent: true,
+          name: 'New Registers',
+          type: 'line',
+          showSymbol: false,
+          areaStyle: {
+            color: {
+              type: 'linear',
+              x: 0,
+              y: 0,
+              x2: 0,
+              y2: 1,
+              colorStops: [
+                { offset: 0, color: '#3f51b5' },
+                { offset: 1, color: 'rgba(63, 81, 181, 0.1)' },
+              ],
+            },
+          },
+          itemStyle: {
+            color: '#3f51b5',
+          },
+          data: data,
         },
       ],
+      animationDuration: 300,
     };
   }
 

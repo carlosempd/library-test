@@ -9,42 +9,66 @@
       <mat-card class="chart-card">
         <mat-card-header>
           <mat-card-title>Books per Year Published</mat-card-title>
-          <mat-card-subtitle>Quantity of published books by year</mat-card-subtitle>
+          <mat-card-subtitle
+            >Quantity of published books by year</mat-card-subtitle
+          >
         </mat-card-header>
         <mat-card-content>
-          <div echarts [options]="booksChartOptions" class="chart-container"></div>
+          <div
+            echarts
+            [options]="booksChartOptions"
+            class="chart-container"
+          ></div>
         </mat-card-content>
       </mat-card>
 
       <mat-card class="chart-card">
         <mat-card-header>
-          <mat-card-title>Dynamic Insights</mat-card-title>
-          <mat-card-subtitle>Additional metrics coming soon</mat-card-subtitle>
+          <mat-card-title>Book register control</mat-card-title>
+          <mat-card-subtitle
+            >Data amount: {{ numberOfRegisters | number }}</mat-card-subtitle
+          >
         </mat-card-header>
         <mat-card-content>
-          <div echarts [options]="comingSoonChartOptions" class="chart-container"></div>
+          <div
+            echarts
+            [options]="booksRegisterControlChartOptions"
+            class="chart-container"
+          ></div>
         </mat-card-content>
       </mat-card>
     </div>
 
     <div class="grid-column">
-       <mat-card class="chart-card">
+      <mat-card class="chart-card">
         <mat-card-header>
           <mat-card-title>Publication Status</mat-card-title>
-          <mat-card-subtitle>Ratio of published vs. non-published books</mat-card-subtitle>
+          <mat-card-subtitle
+            >Ratio of published vs. non-published books</mat-card-subtitle
+          >
         </mat-card-header>
         <mat-card-content>
-          <div echarts [options]="publishedStatusChartOptions" class="chart-container"></div>
+          <div
+            echarts
+            [options]="publishedStatusChartOptions"
+            class="chart-container"
+          ></div>
         </mat-card-content>
       </mat-card>
 
       <mat-card class="chart-card">
         <mat-card-header>
           <mat-card-title>Books by Genre</mat-card-title>
-          <mat-card-subtitle>Distribution of books by author's genre</mat-card-subtitle>
+          <mat-card-subtitle
+            >Distribution of books by author's genre</mat-card-subtitle
+          >
         </mat-card-header>
         <mat-card-content>
-          <div echarts [options]="genreChartOptions" class="chart-container"></div>
+          <div
+            echarts
+            [options]="genreChartOptions"
+            class="chart-container"
+          ></div>
         </mat-card-content>
       </mat-card>
     </div>
