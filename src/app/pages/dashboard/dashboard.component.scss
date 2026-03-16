@@ -21,12 +21,44 @@
   }
 }
 
+.dashboard-grid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  .grid-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &:first-child {
+      flex: 1.5;
+      min-width: 500px;
+    }
+
+    &:last-child {
+      flex: 1;
+      min-width: 350px;
+
+      .chart-container {
+        height: 280px;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      flex: 1 !important;
+      min-width: 100% !important;
+    }
+  }
+}
+
 .chart-card {
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   border: none;
   overflow: hidden;
   background: #ffffff;
+  height: auto;
 }
 
 .chart-container {
