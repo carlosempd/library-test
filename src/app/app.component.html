@@ -1,1 +1,15 @@
-<div echarts [options]="chartOption" style="height: 400px; width: 100%"></div>
+<div class="app-layout">
+  <app-topbar (toggleSidenav)="sidenav.toggle()"></app-topbar>
+
+  <mat-sidenav-container class="app-container">
+    <mat-sidenav #sidenav mode="side" opened class="app-sidenav">
+      <app-sidebar></app-sidebar>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <main class="content">
+        <router-outlet></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
