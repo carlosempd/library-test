@@ -11,6 +11,9 @@ The dashboard view contains 4 charts that display the following information:
 - Pie chart with books by author genre
 - Line chart with a simulation of books registers that updates every 5 seconds and only takes the last two hours of registers.
 
+<img width="1855" height="939" alt="image" src="https://github.com/user-attachments/assets/858eb959-9151-4828-a99f-690778cf14a5" />
+
+
 ## Books
 
 The books view contains a table with a list of books and the following features:
@@ -20,6 +23,12 @@ The books view contains a table with a list of books and the following features:
 - Delete book
 - Add book using a modal
 
+<img width="1855" height="939" alt="image" src="https://github.com/user-attachments/assets/ca872219-9c8c-45c3-a4e7-cdb4668dde4f" />
+
+<img width="1855" height="939" alt="image" src="https://github.com/user-attachments/assets/ddd6180e-4db2-4932-afba-5eac50d78195" />
+
+
+
 ## Authors
 
 The authors view contains a table with a list of authors and the following features:
@@ -28,6 +37,15 @@ The authors view contains a table with a list of authors and the following featu
 - Edit author
 - Delete author
 - Add author using a modal
+
+<img width="1855" height="939" alt="image" src="https://github.com/user-attachments/assets/c1657467-7b7e-4321-80c6-1c95c0ecb83b" />
+
+<img width="1855" height="939" alt="image" src="https://github.com/user-attachments/assets/a9a7abcc-f60f-48f0-963b-281af22773d2" />
+
+<img width="1855" height="939" alt="image" src="https://github.com/user-attachments/assets/4b55e72d-16d2-4327-8a42-2777eb4c25e0" />
+
+
+
 
 ## Development server
 
