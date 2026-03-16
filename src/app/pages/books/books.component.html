@@ -1,0 +1,19 @@
+<div class="page-container">
+  <div class="header">
+    <h1>Books</h1>
+    <button mat-raised-button color="primary" (click)="onAddBook()">
+      Add New Book
+    </button>
+  </div>
+
+  <div class="table-container">
+    <app-table
+      [data]="filteredBooks"
+      [columns]="columns"
+      [actions]="actions"
+      [showFilter]="true"
+      filterPlaceholder="Search by title..."
+      (actionClicked)="handleAction($event)"
+    ></app-table>
+  </div>
+</div>

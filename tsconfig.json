@@ -18,6 +18,7 @@
       "@components/*": ["src/app/components/*"],
       "@pages/*": ["src/app/pages/*"],
       "@app/*": ["src/app/*"],
+      "@services/*": ["src/app/services/*"],
       "@env/*": ["src/environments/*"]
     }
   },
