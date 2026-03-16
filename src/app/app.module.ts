@@ -22,6 +22,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatCardModule } from '@angular/material/card';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Pages
@@ -69,6 +70,7 @@ import { ConfirmationDialogComponent } from '@components/confirmation-dialog/con
     MatSnackBarModule,
     MatCheckboxModule,
     MatAutocompleteModule,
+    MatCardModule,
     FormsModule,
     ReactiveFormsModule,
     NgxEchartsModule.forRoot({

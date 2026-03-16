@@ -13,9 +13,16 @@ export class AuthorService {
     { id: 3, name: 'Jorge Luis Borges', genre: 'Realismo Mágico' },
     { id: 4, name: 'Julio Cortázar', genre: 'Realismo Mágico' },
     { id: 5, name: 'Mario Vargas Llosa', genre: 'Realismo Mágico' },
-    { id: 6, name: 'Pablo Neruda', genre: 'Realismo Mágico' },
-    { id: 7, name: 'Octavio Paz', genre: 'Realismo Mágico' },
-    { id: 8, name: 'Carlos Fuentes', genre: 'Realismo Mágico' },
+    { id: 6, name: 'Pablo Neruda', genre: 'Poetry' },
+    { id: 7, name: 'Octavio Paz', genre: 'Poetry' },
+    { id: 8, name: 'Carlos Fuentes', genre: 'Novel' },
+    { id: 9, name: 'Ernest Hemingway', genre: 'Literature' },
+    { id: 10, name: 'Virginia Woolf', genre: 'Modernism' },
+    { id: 11, name: 'F. Scott Fitzgerald', genre: 'Modernism' },
+    { id: 12, name: 'Jane Austen', genre: 'Classic' },
+    { id: 13, name: 'Charles Dickens', genre: 'Classic' },
+    { id: 14, name: 'Leo Tolstoy', genre: 'Classic' },
+    { id: 15, name: 'Fyodor Dostoevsky', genre: 'Classic' },
   ];
 
   constructor() {}
