@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "name": "Isabel Paz 1",
+    "genre": "Classic"
+  },
+  {
+    "id": 2,
+    "name": "David Fuentes 2",
+    "genre": "Novel"
+  },
+  {
+    "id": 3,
+    "name": "Scott Davis 3",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 4,
+    "name": "Jorge Smith 4",
+    "genre": "Classic"
+  },
+  {
+    "id": 5,
+    "name": "Catherine Tolstoy 5",
+    "genre": "Modernism"
+  },
+  {
+    "id": 6,
+    "name": "Jorge Johnson 6",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 7,
+    "name": "Octavio Johnson 7",
+    "genre": "Literature"
+  },
+  {
+    "id": 8,
+    "name": "David Dickens 8",
+    "genre": "Novel"
+  },
+  {
+    "id": 9,
+    "name": "Ernest Austen 9",
+    "genre": "Poetry"
+  },
+  {
+    "id": 10,
+    "name": "Julio Cortázar 10",
+    "genre": "Classic"
+  },
+  {
+    "id": 11,
+    "name": "Mario Davis 11",
+    "genre": "Literature"
+  },
+  {
+    "id": 12,
+    "name": "Virginia Davis 12",
+    "genre": "Novel"
+  },
+  {
+    "id": 13,
+    "name": "Eva Smith 13",
+    "genre": "Modernism"
+  },
+  {
+    "id": 14,
+    "name": "Jorge Woolf 14",
+    "genre": "Poetry"
+  },
+  {
+    "id": 15,
+    "name": "Charles Johnson 15",
+    "genre": "Novel"
+  },
+  {
+    "id": 16,
+    "name": "Jane Borges 16",
+    "genre": "Mystery"
+  },
+  {
+    "id": 17,
+    "name": "Scott Johnson 17",
+    "genre": "Novel"
+  },
+  {
+    "id": 18,
+    "name": "Bob Tolstoy 18",
+    "genre": "Classic"
+  },
+  {
+    "id": 19,
+    "name": "Catherine Fuentes 19",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 20,
+    "name": "Octavio Johnson 20",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 21,
+    "name": "Leo Woolf 21",
+    "genre": "Mystery"
+  },
+  {
+    "id": 22,
+    "name": "Ernest Tolstoy 22",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 23,
+    "name": "Mario Fuentes 23",
+    "genre": "Poetry"
+  },
+  {
+    "id": 24,
+    "name": "David Borges 24",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 25,
+    "name": "Ernest Davis 25",
+    "genre": "Modernism"
+  },
+  {
+    "id": 26,
+    "name": "David Brown 26",
+    "genre": "Mystery"
+  },
+  {
+    "id": 27,
+    "name": "Virginia Tolstoy 27",
+    "genre": "Mystery"
+  },
+  {
+    "id": 28,
+    "name": "Gabriel Davis 28",
+    "genre": "Poetry"
+  },
+  {
+    "id": 29,
+    "name": "Pablo Vargas 29",
+    "genre": "Literature"
+  },
+  {
+    "id": 30,
+    "name": "Ernest Dostoevsky 30",
+    "genre": "Mystery"
+  },
+  {
+    "id": 31,
+    "name": "Mario Fitzgerald 31",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 32,
+    "name": "Gabriel Tolstoy 32",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 33,
+    "name": "Scott Neruda 33",
+    "genre": "Novel"
+  },
+  {
+    "id": 34,
+    "name": "Ernest Austen 34",
+    "genre": "Novel"
+  },
+  {
+    "id": 35,
+    "name": "Julio García 35",
+    "genre": "Classic"
+  },
+  {
+    "id": 36,
+    "name": "Gabriel Brown 36",
+    "genre": "Modernism"
+  },
+  {
+    "id": 37,
+    "name": "Mario Fuentes 37",
+    "genre": "Literature"
+  },
+  {
+    "id": 38,
+    "name": "Jorge García 38",
+    "genre": "Mystery"
+  },
+  {
+    "id": 39,
+    "name": "Gabriel Dostoevsky 39",
+    "genre": "Mystery"
+  },
+  {
+    "id": 40,
+    "name": "Carlos Paz 40",
+    "genre": "Literature"
+  },
+  {
+    "id": 41,
+    "name": "Gabriel Neruda 41",
+    "genre": "Novel"
+  },
+  {
+    "id": 42,
+    "name": "Carlos Borges 42",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 43,
+    "name": "Alice Woolf 43",
+    "genre": "Biography"
+  },
+  {
+    "id": 44,
+    "name": "Eva Hemingway 44",
+    "genre": "Classic"
+  },
+  {
+    "id": 45,
+    "name": "Pablo Cortázar 45",
+    "genre": "Literature"
+  },
+  {
+    "id": 46,
+    "name": "Carlos Miller 46",
+    "genre": "Mystery"
+  },
+  {
+    "id": 47,
+    "name": "Octavio Neruda 47",
+    "genre": "Mystery"
+  },
+  {
+    "id": 48,
+    "name": "Jane Vargas 48",
+    "genre": "Classic"
+  },
+  {
+    "id": 49,
+    "name": "Alice Borges 49",
+    "genre": "Literature"
+  },
+  {
+    "id": 50,
+    "name": "Leo Hemingway 50",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 51,
+    "name": "Jane Smith 51",
+    "genre": "Novel"
+  },
+  {
+    "id": 52,
+    "name": "Mario Tolstoy 52",
+    "genre": "Modernism"
+  },
+  {
+    "id": 53,
+    "name": "Eva Austen 53",
+    "genre": "Modernism"
+  },
+  {
+    "id": 54,
+    "name": "Carlos Cortázar 54",
+    "genre": "Biography"
+  },
+  {
+    "id": 55,
+    "name": "Jorge Woolf 55",
+    "genre": "Classic"
+  },
+  {
+    "id": 56,
+    "name": "Pablo Fitzgerald 56",
+    "genre": "Poetry"
+  },
+  {
+    "id": 57,
+    "name": "David Dickens 57",
+    "genre": "Modernism"
+  },
+  {
+    "id": 58,
+    "name": "Bob Tolstoy 58",
+    "genre": "Classic"
+  },
+  {
+    "id": 59,
+    "name": "Charles Fuentes 59",
+    "genre": "Classic"
+  },
+  {
+    "id": 60,
+    "name": "Julio Brown 60",
+    "genre": "Modernism"
+  },
+  {
+    "id": 61,
+    "name": "Catherine Austen 61",
+    "genre": "Literature"
+  },
+  {
+    "id": 62,
+    "name": "Fyodor Fuentes 62",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 63,
+    "name": "Pablo Paz 63",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 64,
+    "name": "Charles Fuentes 64",
+    "genre": "Mystery"
+  },
+  {
+    "id": 65,
+    "name": "Pablo Hemingway 65",
+    "genre": "Modernism"
+  },
+  {
+    "id": 66,
+    "name": "Scott Fitzgerald 66",
+    "genre": "Biography"
+  },
+  {
+    "id": 67,
+    "name": "Scott Allende 67",
+    "genre": "Modernism"
+  },
+  {
+    "id": 68,
+    "name": "Gabriel Miller 68",
+    "genre": "Mystery"
+  },
+  {
+    "id": 69,
+    "name": "Carlos Hemingway 69",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 70,
+    "name": "Eva Miller 70",
+    "genre": "Modernism"
+  },
+  {
+    "id": 71,
+    "name": "Leo Paz 71",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 72,
+    "name": "Virginia Vargas 72",
+    "genre": "Biography"
+  },
+  {
+    "id": 73,
+    "name": "Virginia Woolf 73",
+    "genre": "Mystery"
+  },
+  {
+    "id": 74,
+    "name": "Pablo Fuentes 74",
+    "genre": "Poetry"
+  },
+  {
+    "id": 75,
+    "name": "Mario Fuentes 75",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 76,
+    "name": "Carlos Brown 76",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 77,
+    "name": "Jorge Brown 77",
+    "genre": "Poetry"
+  },
+  {
+    "id": 78,
+    "name": "Gabriel García 78",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 79,
+    "name": "Virginia Woolf 79",
+    "genre": "Classic"
+  },
+  {
+    "id": 80,
+    "name": "Eva Dostoevsky 80",
+    "genre": "Novel"
+  },
+  {
+    "id": 81,
+    "name": "Charles Fitzgerald 81",
+    "genre": "Biography"
+  },
+  {
+    "id": 82,
+    "name": "Octavio Paz 82",
+    "genre": "Mystery"
+  },
+  {
+    "id": 83,
+    "name": "Pablo Allende 83",
+    "genre": "Modernism"
+  },
+  {
+    "id": 84,
+    "name": "Charles Johnson 84",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 85,
+    "name": "Mario Johnson 85",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 86,
+    "name": "Octavio Neruda 86",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 87,
+    "name": "Jane Tolstoy 87",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 88,
+    "name": "Bob Woolf 88",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 89,
+    "name": "Jane Miller 89",
+    "genre": "Classic"
+  },
+  {
+    "id": 90,
+    "name": "Leo García 90",
+    "genre": "Classic"
+  },
+  {
+    "id": 91,
+    "name": "Catherine Austen 91",
+    "genre": "Poetry"
+  },
+  {
+    "id": 92,
+    "name": "Carlos Vargas 92",
+    "genre": "Biography"
+  },
+  {
+    "id": 93,
+    "name": "Leo Davis 93",
+    "genre": "Novel"
+  },
+  {
+    "id": 94,
+    "name": "Mario Paz 94",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 95,
+    "name": "Gabriel Fitzgerald 95",
+    "genre": "Mystery"
+  },
+  {
+    "id": 96,
+    "name": "Pablo García 96",
+    "genre": "Mystery"
+  },
+  {
+    "id": 97,
+    "name": "Virginia Johnson 97",
+    "genre": "Novel"
+  },
+  {
+    "id": 98,
+    "name": "Eva Allende 98",
+    "genre": "Classic"
+  },
+  {
+    "id": 99,
+    "name": "Bob Johnson 99",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 100,
+    "name": "Bob Dickens 100",
+    "genre": "Classic"
+  },
+  {
+    "id": 101,
+    "name": "Leo Dostoevsky 101",
+    "genre": "Classic"
+  },
+  {
+    "id": 102,
+    "name": "Eva Miller 102",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 103,
+    "name": "Ernest Paz 103",
+    "genre": "Poetry"
+  },
+  {
+    "id": 104,
+    "name": "Eva Vargas 104",
+    "genre": "Literature"
+  },
+  {
+    "id": 105,
+    "name": "Eva Cortázar 105",
+    "genre": "Biography"
+  },
+  {
+    "id": 106,
+    "name": "Mario Davis 106",
+    "genre": "Classic"
+  },
+  {
+    "id": 107,
+    "name": "Isabel Hemingway 107",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 108,
+    "name": "Catherine Miller 108",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 109,
+    "name": "Eva Paz 109",
+    "genre": "Novel"
+  },
+  {
+    "id": 110,
+    "name": "Scott Borges 110",
+    "genre": "Classic"
+  },
+  {
+    "id": 111,
+    "name": "Gabriel Dickens 111",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 112,
+    "name": "Alice Paz 112",
+    "genre": "Novel"
+  },
+  {
+    "id": 113,
+    "name": "Octavio Fitzgerald 113",
+    "genre": "Novel"
+  },
+  {
+    "id": 114,
+    "name": "Eva Fitzgerald 114",
+    "genre": "Classic"
+  },
+  {
+    "id": 115,
+    "name": "Charles García 115",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 116,
+    "name": "Bob Neruda 116",
+    "genre": "Classic"
+  },
+  {
+    "id": 117,
+    "name": "Ernest Hemingway 117",
+    "genre": "Literature"
+  },
+  {
+    "id": 118,
+    "name": "Fyodor Neruda 118",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 119,
+    "name": "Leo Miller 119",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 120,
+    "name": "Jane Woolf 120",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 121,
+    "name": "Ernest Miller 121",
+    "genre": "Classic"
+  },
+  {
+    "id": 122,
+    "name": "Octavio Paz 122",
+    "genre": "Mystery"
+  },
+  {
+    "id": 123,
+    "name": "Virginia Hemingway 123",
+    "genre": "Classic"
+  },
+  {
+    "id": 124,
+    "name": "Alice Austen 124",
+    "genre": "Novel"
+  },
+  {
+    "id": 125,
+    "name": "Mario García 125",
+    "genre": "Classic"
+  },
+  {
+    "id": 126,
+    "name": "Isabel Austen 126",
+    "genre": "Novel"
+  },
+  {
+    "id": 127,
+    "name": "Carlos García 127",
+    "genre": "Novel"
+  },
+  {
+    "id": 128,
+    "name": "Leo Johnson 128",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 129,
+    "name": "Charles Brown 129",
+    "genre": "Modernism"
+  },
+  {
+    "id": 130,
+    "name": "Octavio García 130",
+    "genre": "Classic"
+  },
+  {
+    "id": 131,
+    "name": "David Hemingway 131",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 132,
+    "name": "Jorge Davis 132",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 133,
+    "name": "Isabel Smith 133",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 134,
+    "name": "David Fitzgerald 134",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 135,
+    "name": "David Tolstoy 135",
+    "genre": "Modernism"
+  },
+  {
+    "id": 136,
+    "name": "Scott Johnson 136",
+    "genre": "Literature"
+  },
+  {
+    "id": 137,
+    "name": "Isabel Brown 137",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 138,
+    "name": "Pablo Cortázar 138",
+    "genre": "Novel"
+  },
+  {
+    "id": 139,
+    "name": "Julio Cortázar 139",
+    "genre": "Novel"
+  },
+  {
+    "id": 140,
+    "name": "Alice Brown 140",
+    "genre": "Biography"
+  },
+  {
+    "id": 141,
+    "name": "Julio Dostoevsky 141",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 142,
+    "name": "Bob Johnson 142",
+    "genre": "Literature"
+  },
+  {
+    "id": 143,
+    "name": "Jorge Borges 143",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 144,
+    "name": "Virginia García 144",
+    "genre": "Poetry"
+  },
+  {
+    "id": 145,
+    "name": "Scott Woolf 145",
+    "genre": "Mystery"
+  },
+  {
+    "id": 146,
+    "name": "Julio Austen 146",
+    "genre": "Modernism"
+  },
+  {
+    "id": 147,
+    "name": "Catherine Cortázar 147",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 148,
+    "name": "Jorge Fuentes 148",
+    "genre": "Literature"
+  },
+  {
+    "id": 149,
+    "name": "Pablo Borges 149",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 150,
+    "name": "Virginia Austen 150",
+    "genre": "Literature"
+  },
+  {
+    "id": 151,
+    "name": "Eva Woolf 151",
+    "genre": "Novel"
+  },
+  {
+    "id": 152,
+    "name": "Fyodor Tolstoy 152",
+    "genre": "Mystery"
+  },
+  {
+    "id": 153,
+    "name": "Fyodor Johnson 153",
+    "genre": "Mystery"
+  },
+  {
+    "id": 154,
+    "name": "Virginia Hemingway 154",
+    "genre": "Classic"
+  },
+  {
+    "id": 155,
+    "name": "Fyodor Allende 155",
+    "genre": "Modernism"
+  },
+  {
+    "id": 156,
+    "name": "Octavio Cortázar 156",
+    "genre": "Classic"
+  },
+  {
+    "id": 157,
+    "name": "Catherine Tolstoy 157",
+    "genre": "Classic"
+  },
+  {
+    "id": 158,
+    "name": "Ernest Fuentes 158",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 159,
+    "name": "Pablo Johnson 159",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 160,
+    "name": "Gabriel Woolf 160",
+    "genre": "Poetry"
+  },
+  {
+    "id": 161,
+    "name": "Carlos Paz 161",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 162,
+    "name": "Gabriel Fuentes 162",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 163,
+    "name": "Jorge Brown 163",
+    "genre": "Literature"
+  },
+  {
+    "id": 164,
+    "name": "Gabriel Smith 164",
+    "genre": "Poetry"
+  },
+  {
+    "id": 165,
+    "name": "Leo Vargas 165",
+    "genre": "Poetry"
+  },
+  {
+    "id": 166,
+    "name": "David García 166",
+    "genre": "Mystery"
+  },
+  {
+    "id": 167,
+    "name": "Fyodor Smith 167",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 168,
+    "name": "Octavio Borges 168",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 169,
+    "name": "Ernest Austen 169",
+    "genre": "Novel"
+  },
+  {
+    "id": 170,
+    "name": "Fyodor Woolf 170",
+    "genre": "Classic"
+  },
+  {
+    "id": 171,
+    "name": "Bob Miller 171",
+    "genre": "Biography"
+  },
+  {
+    "id": 172,
+    "name": "Jorge Smith 172",
+    "genre": "Novel"
+  },
+  {
+    "id": 173,
+    "name": "Leo Fitzgerald 173",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 174,
+    "name": "Mario Miller 174",
+    "genre": "Mystery"
+  },
+  {
+    "id": 175,
+    "name": "Julio Austen 175",
+    "genre": "Novel"
+  },
+  {
+    "id": 176,
+    "name": "Mario Cortázar 176",
+    "genre": "Poetry"
+  },
+  {
+    "id": 177,
+    "name": "Charles Vargas 177",
+    "genre": "Modernism"
+  },
+  {
+    "id": 178,
+    "name": "Leo Dostoevsky 178",
+    "genre": "Classic"
+  },
+  {
+    "id": 179,
+    "name": "Pablo Hemingway 179",
+    "genre": "Mystery"
+  },
+  {
+    "id": 180,
+    "name": "Eva Dickens 180",
+    "genre": "Modernism"
+  },
+  {
+    "id": 181,
+    "name": "Bob Vargas 181",
+    "genre": "Novel"
+  },
+  {
+    "id": 182,
+    "name": "Fyodor Woolf 182",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 183,
+    "name": "Mario Tolstoy 183",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 184,
+    "name": "Bob Brown 184",
+    "genre": "Classic"
+  },
+  {
+    "id": 185,
+    "name": "Julio Paz 185",
+    "genre": "Modernism"
+  },
+  {
+    "id": 186,
+    "name": "Julio Borges 186",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 187,
+    "name": "Julio Woolf 187",
+    "genre": "Biography"
+  },
+  {
+    "id": 188,
+    "name": "Jane Dostoevsky 188",
+    "genre": "Biography"
+  },
+  {
+    "id": 189,
+    "name": "Charles Neruda 189",
+    "genre": "Novel"
+  },
+  {
+    "id": 190,
+    "name": "Mario Tolstoy 190",
+    "genre": "Poetry"
+  },
+  {
+    "id": 191,
+    "name": "Gabriel Austen 191",
+    "genre": "Novel"
+  },
+  {
+    "id": 192,
+    "name": "Julio Dostoevsky 192",
+    "genre": "Modernism"
+  },
+  {
+    "id": 193,
+    "name": "Octavio Vargas 193",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 194,
+    "name": "Charles Tolstoy 194",
+    "genre": "Novel"
+  },
+  {
+    "id": 195,
+    "name": "Gabriel Brown 195",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 196,
+    "name": "Alice Miller 196",
+    "genre": "Biography"
+  },
+  {
+    "id": 197,
+    "name": "Catherine Paz 197",
+    "genre": "Modernism"
+  },
+  {
+    "id": 198,
+    "name": "Bob Austen 198",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 199,
+    "name": "Charles Brown 199",
+    "genre": "Modernism"
+  },
+  {
+    "id": 200,
+    "name": "Leo Dickens 200",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 201,
+    "name": "Catherine Austen 201",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 202,
+    "name": "Jorge Austen 202",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 203,
+    "name": "Gabriel Johnson 203",
+    "genre": "Poetry"
+  },
+  {
+    "id": 204,
+    "name": "David Dickens 204",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 205,
+    "name": "Carlos Vargas 205",
+    "genre": "Modernism"
+  },
+  {
+    "id": 206,
+    "name": "Ernest Brown 206",
+    "genre": "Classic"
+  },
+  {
+    "id": 207,
+    "name": "Bob Tolstoy 207",
+    "genre": "Novel"
+  },
+  {
+    "id": 208,
+    "name": "Fyodor Borges 208",
+    "genre": "Biography"
+  },
+  {
+    "id": 209,
+    "name": "Mario Fitzgerald 209",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 210,
+    "name": "Scott Fuentes 210",
+    "genre": "Mystery"
+  },
+  {
+    "id": 211,
+    "name": "Leo Fitzgerald 211",
+    "genre": "Modernism"
+  },
+  {
+    "id": 212,
+    "name": "Gabriel García 212",
+    "genre": "Classic"
+  },
+  {
+    "id": 213,
+    "name": "Isabel Neruda 213",
+    "genre": "Literature"
+  },
+  {
+    "id": 214,
+    "name": "Octavio Johnson 214",
+    "genre": "Biography"
+  },
+  {
+    "id": 215,
+    "name": "Mario Vargas 215",
+    "genre": "Biography"
+  },
+  {
+    "id": 216,
+    "name": "Scott Brown 216",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 217,
+    "name": "Jane Woolf 217",
+    "genre": "Classic"
+  },
+  {
+    "id": 218,
+    "name": "Fyodor Fitzgerald 218",
+    "genre": "Novel"
+  },
+  {
+    "id": 219,
+    "name": "Scott Allende 219",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 220,
+    "name": "Alice García 220",
+    "genre": "Literature"
+  },
+  {
+    "id": 221,
+    "name": "Leo Johnson 221",
+    "genre": "Novel"
+  },
+  {
+    "id": 222,
+    "name": "Fyodor Dickens 222",
+    "genre": "Mystery"
+  },
+  {
+    "id": 223,
+    "name": "Catherine Woolf 223",
+    "genre": "Biography"
+  },
+  {
+    "id": 224,
+    "name": "Virginia Woolf 224",
+    "genre": "Novel"
+  },
+  {
+    "id": 225,
+    "name": "Isabel Johnson 225",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 226,
+    "name": "David Miller 226",
+    "genre": "Mystery"
+  },
+  {
+    "id": 227,
+    "name": "David Fitzgerald 227",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 228,
+    "name": "Octavio Tolstoy 228",
+    "genre": "Novel"
+  },
+  {
+    "id": 229,
+    "name": "Catherine Austen 229",
+    "genre": "Poetry"
+  },
+  {
+    "id": 230,
+    "name": "Octavio Neruda 230",
+    "genre": "Classic"
+  },
+  {
+    "id": 231,
+    "name": "Mario Austen 231",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 232,
+    "name": "Leo Dickens 232",
+    "genre": "Classic"
+  },
+  {
+    "id": 233,
+    "name": "Scott Austen 233",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 234,
+    "name": "Eva Fuentes 234",
+    "genre": "Novel"
+  },
+  {
+    "id": 235,
+    "name": "Octavio Johnson 235",
+    "genre": "Biography"
+  },
+  {
+    "id": 236,
+    "name": "Pablo Hemingway 236",
+    "genre": "Novel"
+  },
+  {
+    "id": 237,
+    "name": "Julio Fitzgerald 237",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 238,
+    "name": "Bob Fitzgerald 238",
+    "genre": "Novel"
+  },
+  {
+    "id": 239,
+    "name": "Bob Vargas 239",
+    "genre": "Classic"
+  },
+  {
+    "id": 240,
+    "name": "Gabriel Hemingway 240",
+    "genre": "Literature"
+  },
+  {
+    "id": 241,
+    "name": "Charles Dickens 241",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 242,
+    "name": "Ernest Cortázar 242",
+    "genre": "Novel"
+  },
+  {
+    "id": 243,
+    "name": "Fyodor Miller 243",
+    "genre": "Literature"
+  },
+  {
+    "id": 244,
+    "name": "David Austen 244",
+    "genre": "Poetry"
+  },
+  {
+    "id": 245,
+    "name": "Virginia Woolf 245",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 246,
+    "name": "Ernest Cortázar 246",
+    "genre": "Modernism"
+  },
+  {
+    "id": 247,
+    "name": "Jorge Tolstoy 247",
+    "genre": "Mystery"
+  },
+  {
+    "id": 248,
+    "name": "Mario Dostoevsky 248",
+    "genre": "Mystery"
+  },
+  {
+    "id": 249,
+    "name": "Charles Tolstoy 249",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 250,
+    "name": "Scott Borges 250",
+    "genre": "Poetry"
+  },
+  {
+    "id": 251,
+    "name": "Leo Woolf 251",
+    "genre": "Classic"
+  },
+  {
+    "id": 252,
+    "name": "David García 252",
+    "genre": "Poetry"
+  },
+  {
+    "id": 253,
+    "name": "Pablo Austen 253",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 254,
+    "name": "Ernest Dostoevsky 254",
+    "genre": "Literature"
+  },
+  {
+    "id": 255,
+    "name": "Virginia Neruda 255",
+    "genre": "Modernism"
+  },
+  {
+    "id": 256,
+    "name": "Eva Allende 256",
+    "genre": "Novel"
+  },
+  {
+    "id": 257,
+    "name": "Eva Tolstoy 257",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 258,
+    "name": "Jane Tolstoy 258",
+    "genre": "Mystery"
+  },
+  {
+    "id": 259,
+    "name": "Pablo Davis 259",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 260,
+    "name": "Isabel Dostoevsky 260",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 261,
+    "name": "Leo Dickens 261",
+    "genre": "Literature"
+  },
+  {
+    "id": 262,
+    "name": "Scott Fitzgerald 262",
+    "genre": "Novel"
+  },
+  {
+    "id": 263,
+    "name": "Isabel Austen 263",
+    "genre": "Mystery"
+  },
+  {
+    "id": 264,
+    "name": "Ernest Hemingway 264",
+    "genre": "Mystery"
+  },
+  {
+    "id": 265,
+    "name": "Carlos Tolstoy 265",
+    "genre": "Poetry"
+  },
+  {
+    "id": 266,
+    "name": "Octavio Woolf 266",
+    "genre": "Biography"
+  },
+  {
+    "id": 267,
+    "name": "Ernest García 267",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 268,
+    "name": "Bob Borges 268",
+    "genre": "Biography"
+  },
+  {
+    "id": 269,
+    "name": "Leo Hemingway 269",
+    "genre": "Literature"
+  },
+  {
+    "id": 270,
+    "name": "Isabel Austen 270",
+    "genre": "Mystery"
+  },
+  {
+    "id": 271,
+    "name": "Jorge Smith 271",
+    "genre": "Literature"
+  },
+  {
+    "id": 272,
+    "name": "Alice Woolf 272",
+    "genre": "Classic"
+  },
+  {
+    "id": 273,
+    "name": "Alice Woolf 273",
+    "genre": "Poetry"
+  },
+  {
+    "id": 274,
+    "name": "David Paz 274",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 275,
+    "name": "Pablo García 275",
+    "genre": "Literature"
+  },
+  {
+    "id": 276,
+    "name": "Jane Tolstoy 276",
+    "genre": "Classic"
+  },
+  {
+    "id": 277,
+    "name": "Leo Smith 277",
+    "genre": "Poetry"
+  },
+  {
+    "id": 278,
+    "name": "Ernest Dostoevsky 278",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 279,
+    "name": "Julio Johnson 279",
+    "genre": "Mystery"
+  },
+  {
+    "id": 280,
+    "name": "Eva Smith 280",
+    "genre": "Novel"
+  },
+  {
+    "id": 281,
+    "name": "Pablo Paz 281",
+    "genre": "Biography"
+  },
+  {
+    "id": 282,
+    "name": "Gabriel Brown 282",
+    "genre": "Literature"
+  },
+  {
+    "id": 283,
+    "name": "Ernest Neruda 283",
+    "genre": "Literature"
+  },
+  {
+    "id": 284,
+    "name": "Scott Davis 284",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 285,
+    "name": "Leo Fuentes 285",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 286,
+    "name": "Gabriel Hemingway 286",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 287,
+    "name": "Jane Brown 287",
+    "genre": "Classic"
+  },
+  {
+    "id": 288,
+    "name": "Jorge García 288",
+    "genre": "Mystery"
+  },
+  {
+    "id": 289,
+    "name": "Eva Vargas 289",
+    "genre": "Biography"
+  },
+  {
+    "id": 290,
+    "name": "Isabel Miller 290",
+    "genre": "Literature"
+  },
+  {
+    "id": 291,
+    "name": "Leo Johnson 291",
+    "genre": "Modernism"
+  },
+  {
+    "id": 292,
+    "name": "Virginia Woolf 292",
+    "genre": "Poetry"
+  },
+  {
+    "id": 293,
+    "name": "Isabel Dostoevsky 293",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 294,
+    "name": "Catherine García 294",
+    "genre": "Classic"
+  },
+  {
+    "id": 295,
+    "name": "Leo Fitzgerald 295",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 296,
+    "name": "Eva Smith 296",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 297,
+    "name": "Leo Fitzgerald 297",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 298,
+    "name": "Charles Brown 298",
+    "genre": "Modernism"
+  },
+  {
+    "id": 299,
+    "name": "David Dostoevsky 299",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 300,
+    "name": "Ernest Austen 300",
+    "genre": "Poetry"
+  },
+  {
+    "id": 301,
+    "name": "Scott Austen 301",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 302,
+    "name": "Isabel Neruda 302",
+    "genre": "Novel"
+  },
+  {
+    "id": 303,
+    "name": "Virginia Paz 303",
+    "genre": "Mystery"
+  },
+  {
+    "id": 304,
+    "name": "Virginia Paz 304",
+    "genre": "Poetry"
+  },
+  {
+    "id": 305,
+    "name": "Leo Allende 305",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 306,
+    "name": "Bob Tolstoy 306",
+    "genre": "Novel"
+  },
+  {
+    "id": 307,
+    "name": "David Davis 307",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 308,
+    "name": "Carlos Brown 308",
+    "genre": "Biography"
+  },
+  {
+    "id": 309,
+    "name": "Alice Tolstoy 309",
+    "genre": "Literature"
+  },
+  {
+    "id": 310,
+    "name": "Charles Fuentes 310",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 311,
+    "name": "Julio Dickens 311",
+    "genre": "Literature"
+  },
+  {
+    "id": 312,
+    "name": "Octavio Dostoevsky 312",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 313,
+    "name": "Bob Allende 313",
+    "genre": "Biography"
+  },
+  {
+    "id": 314,
+    "name": "Isabel Davis 314",
+    "genre": "Literature"
+  },
+  {
+    "id": 315,
+    "name": "Eva Dostoevsky 315",
+    "genre": "Novel"
+  },
+  {
+    "id": 316,
+    "name": "Ernest Cortázar 316",
+    "genre": "Poetry"
+  },
+  {
+    "id": 317,
+    "name": "Scott Austen 317",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 318,
+    "name": "Fyodor Borges 318",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 319,
+    "name": "Virginia Miller 319",
+    "genre": "Mystery"
+  },
+  {
+    "id": 320,
+    "name": "Carlos Neruda 320",
+    "genre": "Modernism"
+  },
+  {
+    "id": 321,
+    "name": "Octavio Neruda 321",
+    "genre": "Poetry"
+  },
+  {
+    "id": 322,
+    "name": "Jane Fuentes 322",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 323,
+    "name": "Bob Fuentes 323",
+    "genre": "Modernism"
+  },
+  {
+    "id": 324,
+    "name": "Octavio Neruda 324",
+    "genre": "Literature"
+  },
+  {
+    "id": 325,
+    "name": "Pablo Paz 325",
+    "genre": "Poetry"
+  },
+  {
+    "id": 326,
+    "name": "Julio Cortázar 326",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 327,
+    "name": "Jane Borges 327",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 328,
+    "name": "Eva Neruda 328",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 329,
+    "name": "Mario García 329",
+    "genre": "Poetry"
+  },
+  {
+    "id": 330,
+    "name": "Pablo Neruda 330",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 331,
+    "name": "Pablo Fuentes 331",
+    "genre": "Poetry"
+  },
+  {
+    "id": 332,
+    "name": "Catherine Tolstoy 332",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 333,
+    "name": "Mario Allende 333",
+    "genre": "Novel"
+  },
+  {
+    "id": 334,
+    "name": "Scott Johnson 334",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 335,
+    "name": "Octavio Allende 335",
+    "genre": "Biography"
+  },
+  {
+    "id": 336,
+    "name": "Carlos Dickens 336",
+    "genre": "Novel"
+  },
+  {
+    "id": 337,
+    "name": "Bob Cortázar 337",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 338,
+    "name": "Eva Brown 338",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 339,
+    "name": "Bob Hemingway 339",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 340,
+    "name": "Scott Paz 340",
+    "genre": "Modernism"
+  },
+  {
+    "id": 341,
+    "name": "David Brown 341",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 342,
+    "name": "Gabriel Neruda 342",
+    "genre": "Novel"
+  },
+  {
+    "id": 343,
+    "name": "Gabriel Fuentes 343",
+    "genre": "Classic"
+  },
+  {
+    "id": 344,
+    "name": "Octavio Miller 344",
+    "genre": "Modernism"
+  },
+  {
+    "id": 345,
+    "name": "Jorge Smith 345",
+    "genre": "Poetry"
+  },
+  {
+    "id": 346,
+    "name": "Pablo Cortázar 346",
+    "genre": "Novel"
+  },
+  {
+    "id": 347,
+    "name": "Gabriel Johnson 347",
+    "genre": "Literature"
+  },
+  {
+    "id": 348,
+    "name": "Ernest Tolstoy 348",
+    "genre": "Literature"
+  },
+  {
+    "id": 349,
+    "name": "Charles Brown 349",
+    "genre": "Novel"
+  },
+  {
+    "id": 350,
+    "name": "Octavio Vargas 350",
+    "genre": "Classic"
+  },
+  {
+    "id": 351,
+    "name": "Jorge Paz 351",
+    "genre": "Novel"
+  },
+  {
+    "id": 352,
+    "name": "Catherine Smith 352",
+    "genre": "Biography"
+  },
+  {
+    "id": 353,
+    "name": "Virginia Vargas 353",
+    "genre": "Biography"
+  },
+  {
+    "id": 354,
+    "name": "Gabriel Dickens 354",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 355,
+    "name": "Octavio Tolstoy 355",
+    "genre": "Classic"
+  },
+  {
+    "id": 356,
+    "name": "Isabel Neruda 356",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 357,
+    "name": "Mario Woolf 357",
+    "genre": "Poetry"
+  },
+  {
+    "id": 358,
+    "name": "Fyodor Tolstoy 358",
+    "genre": "Novel"
+  },
+  {
+    "id": 359,
+    "name": "Jane Woolf 359",
+    "genre": "Poetry"
+  },
+  {
+    "id": 360,
+    "name": "Isabel Dickens 360",
+    "genre": "Mystery"
+  },
+  {
+    "id": 361,
+    "name": "Alice Brown 361",
+    "genre": "Mystery"
+  },
+  {
+    "id": 362,
+    "name": "Julio Miller 362",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 363,
+    "name": "Charles Dostoevsky 363",
+    "genre": "Classic"
+  },
+  {
+    "id": 364,
+    "name": "David Brown 364",
+    "genre": "Novel"
+  },
+  {
+    "id": 365,
+    "name": "Charles Allende 365",
+    "genre": "Modernism"
+  },
+  {
+    "id": 366,
+    "name": "Julio Woolf 366",
+    "genre": "Mystery"
+  },
+  {
+    "id": 367,
+    "name": "Charles Neruda 367",
+    "genre": "Mystery"
+  },
+  {
+    "id": 368,
+    "name": "Charles Paz 368",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 369,
+    "name": "Ernest Cortázar 369",
+    "genre": "Biography"
+  },
+  {
+    "id": 370,
+    "name": "Catherine Paz 370",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 371,
+    "name": "Mario Allende 371",
+    "genre": "Mystery"
+  },
+  {
+    "id": 372,
+    "name": "Virginia Johnson 372",
+    "genre": "Mystery"
+  },
+  {
+    "id": 373,
+    "name": "Eva Miller 373",
+    "genre": "Poetry"
+  },
+  {
+    "id": 374,
+    "name": "Ernest Allende 374",
+    "genre": "Biography"
+  },
+  {
+    "id": 375,
+    "name": "Catherine Paz 375",
+    "genre": "Biography"
+  },
+  {
+    "id": 376,
+    "name": "Octavio Brown 376",
+    "genre": "Mystery"
+  },
+  {
+    "id": 377,
+    "name": "Scott Dostoevsky 377",
+    "genre": "Novel"
+  },
+  {
+    "id": 378,
+    "name": "Fyodor Davis 378",
+    "genre": "Literature"
+  },
+  {
+    "id": 379,
+    "name": "David Vargas 379",
+    "genre": "Modernism"
+  },
+  {
+    "id": 380,
+    "name": "Virginia Davis 380",
+    "genre": "Classic"
+  },
+  {
+    "id": 381,
+    "name": "Charles Dostoevsky 381",
+    "genre": "Mystery"
+  },
+  {
+    "id": 382,
+    "name": "Catherine Woolf 382",
+    "genre": "Biography"
+  },
+  {
+    "id": 383,
+    "name": "Octavio Neruda 383",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 384,
+    "name": "Pablo Woolf 384",
+    "genre": "Poetry"
+  },
+  {
+    "id": 385,
+    "name": "Bob Vargas 385",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 386,
+    "name": "Fyodor Cortázar 386",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 387,
+    "name": "Virginia Brown 387",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 388,
+    "name": "Eva Paz 388",
+    "genre": "Poetry"
+  },
+  {
+    "id": 389,
+    "name": "David Austen 389",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 390,
+    "name": "Bob Fuentes 390",
+    "genre": "Biography"
+  },
+  {
+    "id": 391,
+    "name": "Scott Paz 391",
+    "genre": "Poetry"
+  },
+  {
+    "id": 392,
+    "name": "Alice Miller 392",
+    "genre": "Modernism"
+  },
+  {
+    "id": 393,
+    "name": "Alice Borges 393",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 394,
+    "name": "Scott Fuentes 394",
+    "genre": "Poetry"
+  },
+  {
+    "id": 395,
+    "name": "Bob Tolstoy 395",
+    "genre": "Biography"
+  },
+  {
+    "id": 396,
+    "name": "Scott Woolf 396",
+    "genre": "Biography"
+  },
+  {
+    "id": 397,
+    "name": "Gabriel García 397",
+    "genre": "Poetry"
+  },
+  {
+    "id": 398,
+    "name": "Jorge Davis 398",
+    "genre": "Biography"
+  },
+  {
+    "id": 399,
+    "name": "Alice Borges 399",
+    "genre": "Classic"
+  },
+  {
+    "id": 400,
+    "name": "Mario Tolstoy 400",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 401,
+    "name": "Isabel Dickens 401",
+    "genre": "Modernism"
+  },
+  {
+    "id": 402,
+    "name": "Jorge García 402",
+    "genre": "Modernism"
+  },
+  {
+    "id": 403,
+    "name": "Julio Hemingway 403",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 404,
+    "name": "Carlos Paz 404",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 405,
+    "name": "Eva Austen 405",
+    "genre": "Poetry"
+  },
+  {
+    "id": 406,
+    "name": "Isabel Allende 406",
+    "genre": "Novel"
+  },
+  {
+    "id": 407,
+    "name": "Charles Allende 407",
+    "genre": "Modernism"
+  },
+  {
+    "id": 408,
+    "name": "Fyodor Woolf 408",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 409,
+    "name": "Mario Hemingway 409",
+    "genre": "Biography"
+  },
+  {
+    "id": 410,
+    "name": "Ernest Vargas 410",
+    "genre": "Mystery"
+  },
+  {
+    "id": 411,
+    "name": "Alice Fuentes 411",
+    "genre": "Biography"
+  },
+  {
+    "id": 412,
+    "name": "Virginia Johnson 412",
+    "genre": "Mystery"
+  },
+  {
+    "id": 413,
+    "name": "Charles Cortázar 413",
+    "genre": "Mystery"
+  },
+  {
+    "id": 414,
+    "name": "Carlos Tolstoy 414",
+    "genre": "Classic"
+  },
+  {
+    "id": 415,
+    "name": "Virginia Davis 415",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 416,
+    "name": "David Fuentes 416",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 417,
+    "name": "Octavio Fuentes 417",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 418,
+    "name": "Bob Brown 418",
+    "genre": "Modernism"
+  },
+  {
+    "id": 419,
+    "name": "Ernest Dickens 419",
+    "genre": "Poetry"
+  },
+  {
+    "id": 420,
+    "name": "Pablo Austen 420",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 421,
+    "name": "Fyodor Dostoevsky 421",
+    "genre": "Mystery"
+  },
+  {
+    "id": 422,
+    "name": "Gabriel Tolstoy 422",
+    "genre": "Classic"
+  },
+  {
+    "id": 423,
+    "name": "Julio Brown 423",
+    "genre": "Literature"
+  },
+  {
+    "id": 424,
+    "name": "Gabriel Johnson 424",
+    "genre": "Biography"
+  },
+  {
+    "id": 425,
+    "name": "Leo Johnson 425",
+    "genre": "Mystery"
+  },
+  {
+    "id": 426,
+    "name": "Eva Cortázar 426",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 427,
+    "name": "David Allende 427",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 428,
+    "name": "David García 428",
+    "genre": "Modernism"
+  },
+  {
+    "id": 429,
+    "name": "Bob Tolstoy 429",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 430,
+    "name": "Catherine Vargas 430",
+    "genre": "Mystery"
+  },
+  {
+    "id": 431,
+    "name": "Fyodor Cortázar 431",
+    "genre": "Classic"
+  },
+  {
+    "id": 432,
+    "name": "David Cortázar 432",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 433,
+    "name": "Ernest Paz 433",
+    "genre": "Classic"
+  },
+  {
+    "id": 434,
+    "name": "Alice Vargas 434",
+    "genre": "Modernism"
+  },
+  {
+    "id": 435,
+    "name": "Alice Cortázar 435",
+    "genre": "Literature"
+  },
+  {
+    "id": 436,
+    "name": "Catherine Dickens 436",
+    "genre": "Modernism"
+  },
+  {
+    "id": 437,
+    "name": "Bob Fitzgerald 437",
+    "genre": "Classic"
+  },
+  {
+    "id": 438,
+    "name": "Gabriel Smith 438",
+    "genre": "Poetry"
+  },
+  {
+    "id": 439,
+    "name": "Pablo García 439",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 440,
+    "name": "Alice Dickens 440",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 441,
+    "name": "Octavio Davis 441",
+    "genre": "Literature"
+  },
+  {
+    "id": 442,
+    "name": "Virginia Paz 442",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 443,
+    "name": "Jane Miller 443",
+    "genre": "Biography"
+  },
+  {
+    "id": 444,
+    "name": "Isabel Miller 444",
+    "genre": "Biography"
+  },
+  {
+    "id": 445,
+    "name": "Mario Borges 445",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 446,
+    "name": "Julio Johnson 446",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 447,
+    "name": "Scott Davis 447",
+    "genre": "Mystery"
+  },
+  {
+    "id": 448,
+    "name": "Scott Cortázar 448",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 449,
+    "name": "Eva Johnson 449",
+    "genre": "Novel"
+  },
+  {
+    "id": 450,
+    "name": "Eva Hemingway 450",
+    "genre": "Literature"
+  },
+  {
+    "id": 451,
+    "name": "Leo Johnson 451",
+    "genre": "Biography"
+  },
+  {
+    "id": 452,
+    "name": "Pablo Dostoevsky 452",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 453,
+    "name": "Julio Borges 453",
+    "genre": "Classic"
+  },
+  {
+    "id": 454,
+    "name": "Scott Brown 454",
+    "genre": "Classic"
+  },
+  {
+    "id": 455,
+    "name": "Virginia Dostoevsky 455",
+    "genre": "Classic"
+  },
+  {
+    "id": 456,
+    "name": "Virginia García 456",
+    "genre": "Novel"
+  },
+  {
+    "id": 457,
+    "name": "Fyodor Davis 457",
+    "genre": "Novel"
+  },
+  {
+    "id": 458,
+    "name": "Carlos Brown 458",
+    "genre": "Biography"
+  },
+  {
+    "id": 459,
+    "name": "Leo Dickens 459",
+    "genre": "Novel"
+  },
+  {
+    "id": 460,
+    "name": "Eva Hemingway 460",
+    "genre": "Mystery"
+  },
+  {
+    "id": 461,
+    "name": "Leo Brown 461",
+    "genre": "Poetry"
+  },
+  {
+    "id": 462,
+    "name": "Eva Neruda 462",
+    "genre": "Biography"
+  },
+  {
+    "id": 463,
+    "name": "Ernest Miller 463",
+    "genre": "Literature"
+  },
+  {
+    "id": 464,
+    "name": "Octavio Austen 464",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 465,
+    "name": "Gabriel Cortázar 465",
+    "genre": "Novel"
+  },
+  {
+    "id": 466,
+    "name": "Mario Fitzgerald 466",
+    "genre": "Mystery"
+  },
+  {
+    "id": 467,
+    "name": "Octavio Fuentes 467",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 468,
+    "name": "Isabel Dickens 468",
+    "genre": "Modernism"
+  },
+  {
+    "id": 469,
+    "name": "Jorge Paz 469",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 470,
+    "name": "Mario Smith 470",
+    "genre": "Mystery"
+  },
+  {
+    "id": 471,
+    "name": "Eva Fitzgerald 471",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 472,
+    "name": "Julio Cortázar 472",
+    "genre": "Poetry"
+  },
+  {
+    "id": 473,
+    "name": "Eva Davis 473",
+    "genre": "Mystery"
+  },
+  {
+    "id": 474,
+    "name": "Alice Davis 474",
+    "genre": "Literature"
+  },
+  {
+    "id": 475,
+    "name": "Leo Borges 475",
+    "genre": "Classic"
+  },
+  {
+    "id": 476,
+    "name": "Charles Woolf 476",
+    "genre": "Modernism"
+  },
+  {
+    "id": 477,
+    "name": "Leo Dostoevsky 477",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 478,
+    "name": "Ernest Woolf 478",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 479,
+    "name": "Julio Borges 479",
+    "genre": "Novel"
+  },
+  {
+    "id": 480,
+    "name": "Jane Austen 480",
+    "genre": "Mystery"
+  },
+  {
+    "id": 481,
+    "name": "Jorge Neruda 481",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 482,
+    "name": "Ernest Austen 482",
+    "genre": "Classic"
+  },
+  {
+    "id": 483,
+    "name": "Isabel Miller 483",
+    "genre": "Literature"
+  },
+  {
+    "id": 484,
+    "name": "Alice Neruda 484",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 485,
+    "name": "Gabriel García 485",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 486,
+    "name": "Charles Hemingway 486",
+    "genre": "Classic"
+  },
+  {
+    "id": 487,
+    "name": "Leo García 487",
+    "genre": "Mystery"
+  },
+  {
+    "id": 488,
+    "name": "Bob Tolstoy 488",
+    "genre": "Mystery"
+  },
+  {
+    "id": 489,
+    "name": "Eva Davis 489",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 490,
+    "name": "Jane Neruda 490",
+    "genre": "Mystery"
+  },
+  {
+    "id": 491,
+    "name": "Bob Neruda 491",
+    "genre": "Mystery"
+  },
+  {
+    "id": 492,
+    "name": "Scott Dickens 492",
+    "genre": "Classic"
+  },
+  {
+    "id": 493,
+    "name": "Mario Tolstoy 493",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 494,
+    "name": "Jane Dickens 494",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": 495,
+    "name": "Pablo Fitzgerald 495",
+    "genre": "Classic"
+  },
+  {
+    "id": 496,
+    "name": "Scott Davis 496",
+    "genre": "Poetry"
+  },
+  {
+    "id": 497,
+    "name": "Julio Neruda 497",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 498,
+    "name": "Virginia Woolf 498",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 499,
+    "name": "Pablo Brown 499",
+    "genre": "Realismo Mágico"
+  },
+  {
+    "id": 500,
+    "name": "Scott Dickens 500",
+    "genre": "Classic"
+  }
+]
