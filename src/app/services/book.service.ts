@@ -13,6 +13,7 @@ export class BookService {
       title: 'Cien años de soledad',
       authorId: 1,
       description: 'The story of the Buendía family in the town of Macondo.',
+      published: true,
       yearPublished: 1967,
       registeredAt: new Date(),
     },
@@ -21,6 +22,7 @@ export class BookService {
       title: 'La casa de los espíritus',
       authorId: 2,
       description: 'A multi-generational story following the Trueba family.',
+      published: true,
       yearPublished: 1982,
       registeredAt: new Date(),
     },
@@ -29,6 +31,7 @@ export class BookService {
       title: 'El Aleph',
       authorId: 3,
       description: 'A collection of short stories exploring philosophical themes.',
+      published: true,
       yearPublished: 1949,
       registeredAt: new Date(),
     },
@@ -37,6 +40,7 @@ export class BookService {
       title: 'Rayuela',
       authorId: 4,
       description: 'An experimental novel that can be read in multiple sequences.',
+      published: false,
       yearPublished: 1963,
       registeredAt: new Date(),
     },
@@ -45,6 +49,7 @@ export class BookService {
       title: 'La ciudad y los perros',
       authorId: 5,
       description: 'A novel about the lives of cadets at a military academy.',
+      published: true,
       yearPublished: 1963,
       registeredAt: new Date(),
     },
@@ -53,7 +58,7 @@ export class BookService {
   constructor() {}
 
   getBooks(): Observable<Book[]> {
-    return of([...this.books]).pipe(delay(800));
+    return of([...this.books]).pipe(delay(500));
   }
 
   getBookById(id: number): Observable<Book | undefined> {

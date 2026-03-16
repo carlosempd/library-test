@@ -1,0 +1,92 @@
+<h2 mat-dialog-title>{{ isEditMode ? "Edit Book" : "Add New Book" }}</h2>
+<mat-dialog-content>
+  <form [formGroup]="bookForm" class="book-form">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" placeholder="Enter book title" />
+      <mat-error *ngIf="bookForm.get('title')?.hasError('required')">
+        Title is required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Description</mat-label>
+      <textarea
+        matInput
+        formControlName="description"
+        placeholder="Enter book description"
+        rows="3"
+      ></textarea>
+      <mat-error *ngIf="bookForm.get('description')?.hasError('required')"
+        >Description is required</mat-error
+      >
+    </mat-form-field>
+
+    <div class="author-row">
+      <mat-form-field appearance="outline" class="flex-grow">
+        <mat-label>Author</mat-label>
+        <input
+          type="text"
+          placeholder="Select an author"
+          matInput
+          formControlName="author"
+          [matAutocomplete]="auto"
+        />
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+          <mat-option
+            *ngFor="let author of filteredAuthors | async"
+            [value]="author"
+          >
+            {{ author.name }}
+          </mat-option>
+        </mat-autocomplete>
+        <mat-error *ngIf="bookForm.get('author')?.hasError('required')"
+          >Author is required</mat-error
+        >
+      </mat-form-field>
+      <button
+        mat-mini-fab
+        color="primary"
+        type="button"
+        (click)="onAddNewAuthor()"
+        matTooltip="Add New Author"
+      >
+        <mat-icon>add</mat-icon>
+      </button>
+    </div>
+
+    <div class="publish-row">
+      <mat-checkbox formControlName="published">Published</mat-checkbox>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Year Published</mat-label>
+        <input
+          matInput
+          type="number"
+          formControlName="yearPublished"
+          placeholder="YYYY"
+        />
+        <mat-error *ngIf="bookForm.get('yearPublished')?.hasError('required')"
+          >Year is required when published</mat-error
+        >
+        <mat-error *ngIf="bookForm.get('yearPublished')?.hasError('min')"
+          >Invalid year (must be > 1000)</mat-error
+        >
+        <mat-error *ngIf="bookForm.get('yearPublished')?.hasError('max')"
+          >Invalid year (future year not allowed)</mat-error
+        >
+      </mat-form-field>
+    </div>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="onSave()"
+    [disabled]="bookForm.invalid"
+  >
+    {{ isEditMode ? "Update" : "Create" }}
+  </button>
+</mat-dialog-actions>

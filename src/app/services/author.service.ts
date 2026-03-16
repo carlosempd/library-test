@@ -21,7 +21,7 @@ export class AuthorService {
   constructor() {}
 
   getAuthors(): Observable<Author[]> {
-    return of([...this.authors]).pipe(delay(800));
+    return of([...this.authors]).pipe(delay(500));
   }
 
   getAuthorById(id: number): Observable<Author | undefined> {

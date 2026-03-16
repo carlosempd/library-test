@@ -20,6 +20,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Pages
@@ -27,11 +29,13 @@ import { DashboardComponent } from '@pages/dashboard/dashboard.component';
 import { AuthorsComponent } from '@pages/authors/authors.component';
 import { BooksComponent } from '@pages/books/books.component';
 import { AuthorModalComponent } from './pages/authors/author-modal/author-modal.component';
+import { BookModalComponent } from './pages/books/book-modal/book-modal.component';
 
 // Components
 import { TopbarComponent } from '@components/topbar/topbar.component';
 import { SidebarComponent } from '@components/sidebar/sidebar.component';
 import { TableComponent } from '@components/table/table.component';
+import { ConfirmationDialogComponent } from '@components/confirmation-dialog/confirmation-dialog.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +47,8 @@ import { TableComponent } from '@components/table/table.component';
     SidebarComponent,
     TableComponent,
     AuthorModalComponent,
+    ConfirmationDialogComponent,
+    BookModalComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,6 +67,8 @@ import { TableComponent } from '@components/table/table.component';
     MatInputModule,
     MatDialogModule,
     MatSnackBarModule,
+    MatCheckboxModule,
+    MatAutocompleteModule,
     FormsModule,
     ReactiveFormsModule,
     NgxEchartsModule.forRoot({

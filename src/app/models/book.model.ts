@@ -3,6 +3,7 @@ export interface Book {
   title: string;
   authorId: number;
   description: string;
+  published: boolean;
   yearPublished: number;
   registeredAt: Date;
 }

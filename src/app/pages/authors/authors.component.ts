@@ -5,6 +5,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { AuthorModalComponent } from './author-modal/author-modal.component';
 import { ToastService } from '@app/services/toast.service';
 import { AuthorService } from '@app/services/author.service';
+import { ConfirmationDialogComponent } from '@components/confirmation-dialog/confirmation-dialog.component';
 
 @Component({
   selector: 'app-authors',
@@ -59,14 +60,24 @@ export class AuthorsComponent implements OnInit {
   }
 
   deleteAuthor(author: Author) {
-    if (confirm(`Are you sure you want to delete ${author.name}?`)) {
-      this.loading = true;
-      this.authorService.deleteAuthor(author.id).subscribe(() => {
-        this.authors = this.authors.filter((a) => a.id !== author.id);
-        this.toast.success('Author deleted');
-        this.loading = false;
-      });
-    }
+    const dialogRef = this.dialog.open(ConfirmationDialogComponent, {
+      width: '350px',
+      data: {
+        title: 'Delete Author',
+        message: `Are you sure you want to delete ${author.name}?`,
+      },
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result) {
+        this.loading = true;
+        this.authorService.deleteAuthor(author.id).subscribe(() => {
+          this.authors = this.authors.filter((a) => a.id !== author.id);
+          this.toast.success('Author deleted');
+          this.loading = false;
+        });
+      }
+    });
   }
 
   onNewAuthor() {
