@@ -13,6 +13,11 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 // Pages
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -22,6 +27,7 @@ import { BooksComponent } from './pages/books/books.component';
 // Components
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +36,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     AuthorsComponent,
     BooksComponent,
     TopbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +49,11 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatFormFieldModule,
+    MatInputModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts'),
     }),

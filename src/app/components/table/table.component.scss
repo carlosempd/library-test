@@ -1,0 +1,81 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+  .table-header {
+    padding: 1.5rem 1.5rem 0.5rem;
+
+    mat-form-field {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  .responsive-table {
+    overflow-x: auto;
+    width: 100%;
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+
+      th.mat-header-cell {
+        color: #5f6368;
+        font-weight: 600;
+        font-size: 0.875rem;
+        padding: 1rem;
+        background: #f8f9fa;
+        border-bottom: 1px solid #e0e0e0;
+        white-space: nowrap;
+      }
+
+      td.mat-cell {
+        padding: 1rem;
+        color: #3c4043;
+        font-size: 0.9rem;
+        border-bottom: 1px solid #f1f3f4;
+        white-space: nowrap;
+      }
+
+      tr.mat-row:hover {
+        background-color: #f8f9fa;
+        transition: background-color 0.2s ease;
+      }
+
+      .mat-column-actions {
+        width: 60px;
+        text-align: center;
+        padding-right: 1.5rem;
+      }
+    }
+  }
+
+  mat-paginator {
+    border-top: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+  }
+}
+
+// Custom styles for Material components within our table
+::ng-deep {
+  .mat-form-field-appearance-outline .mat-form-field-wrapper {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .table-container {
+    .table-header {
+      padding: 1rem;
+      mat-form-field {
+        max-width: 100%;
+      }
+    }
+  }
+}
