@@ -1,0 +1,21 @@
+<div class="page-container">
+  <div class="header-section">
+    <div>
+      <h1>Authors</h1>
+      <p>Manage library authors</p>
+    </div>
+    <button mat-raised-button color="primary" (click)="onNewAuthor()">
+      <mat-icon>add</mat-icon>
+      New
+    </button>
+  </div>
+
+  <app-table
+    [data]="authors"
+    [columns]="columns"
+    [actions]="actions"
+    filterPlaceholder="Search authors..."
+    (actionClicked)="onActionClicked($event)"
+  >
+  </app-table>
+</div>

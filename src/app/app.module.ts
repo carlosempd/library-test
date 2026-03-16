@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,11 +18,15 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Pages
 import { DashboardComponent } from '@pages/dashboard/dashboard.component';
 import { AuthorsComponent } from '@pages/authors/authors.component';
 import { BooksComponent } from '@pages/books/books.component';
+import { AuthorModalComponent } from './pages/authors/author-modal/author-modal.component';
 
 // Components
 import { TopbarComponent } from '@components/topbar/topbar.component';
@@ -38,6 +42,7 @@ import { TableComponent } from '@components/table/table.component';
     TopbarComponent,
     SidebarComponent,
     TableComponent,
+    AuthorModalComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,11 +59,16 @@ import { TableComponent } from '@components/table/table.component';
     MatSortModule,
     MatFormFieldModule,
     MatInputModule,
+    MatDialogModule,
+    MatSnackBarModule,
+    FormsModule,
+    ReactiveFormsModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts'),
     }),
   ],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}

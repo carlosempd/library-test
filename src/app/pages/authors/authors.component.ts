@@ -1,50 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { ColumnConfiguration, TableAction } from '@models/table.model';
 import { Author } from '@models/author.model';
+import { MatDialog } from '@angular/material/dialog';
+import { AuthorModalComponent } from './author-modal/author-modal.component';
+import { ToastService } from '@app/services/toast.service';
 
 @Component({
   selector: 'app-authors',
-  template: `
-    <div class="page-container">
-      <div class="header-section">
-        <h1>Authors</h1>
-        <p>Manage library authors here.</p>
-      </div>
-
-      <app-table
-        [data]="authors"
-        [columns]="columns"
-        [actions]="actions"
-        filterPlaceholder="Search authors..."
-        (actionClicked)="onActionClicked($event)"
-      >
-      </app-table>
-    </div>
-  `,
-  styles: [
-    `
-      .page-container {
-        padding: 24px;
-        background-color: #f0f2f5;
-        min-height: calc(100vh - 64px);
-      }
-      .header-section {
-        margin-bottom: 24px;
-        h1 {
-          margin: 0;
-          color: #1a73e8;
-          font-weight: 500;
-        }
-        p {
-          color: #5f6368;
-          margin-top: 4px;
-        }
-      }
-    `,
-  ],
+  templateUrl: './authors.component.html',
+  styleUrls: ['./authors.component.scss'],
 })
 export class AuthorsComponent implements OnInit {
   authors: Author[] = [];
+
+  constructor(
+    private dialog: MatDialog,
+    private toast: ToastService,
+  ) {}
 
   columns: ColumnConfiguration[] = [
     { key: 'id', label: 'ID', sortable: true },
@@ -72,9 +44,44 @@ export class AuthorsComponent implements OnInit {
   }
 
   onActionClicked(event: { action: string; row: Author }) {
-    console.log(
-      `Action: ${event.action} clicked for author: ${event.row.name}`,
-    );
-    alert(`Action: ${event.action} clicked for author: ${event.row.name}`);
+    if (event.action === 'edit') {
+      this.openAuthorModal(event.row);
+    } else if (event.action === 'delete') {
+      this.authors = this.authors.filter((a) => a.id !== event.row.id);
+      this.toast.success('Author deleted');
+    }
+  }
+
+  onNewAuthor() {
+    this.openAuthorModal();
+  }
+
+  private openAuthorModal(author?: Author) {
+    const dialogRef = this.dialog.open(AuthorModalComponent, {
+      width: '450px',
+      data: author,
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result) {
+        if (author) {
+          // Update existing author
+          const index = this.authors.findIndex((a) => a.id === author.id);
+          if (index !== -1) {
+            this.authors[index] = result;
+            this.authors = [...this.authors]; // Trigger change detection
+            this.toast.success('Author updated');
+          }
+        } else {
+          // Add new author - PREPEND to the list
+          const newId =
+            this.authors.length > 0
+              ? Math.max(...this.authors.map((a) => a.id || 0)) + 1
+              : 1;
+          this.authors = [{ ...result, id: newId }, ...this.authors];
+          this.toast.success('Author created');
+        }
+      }
+    });
   }
 }
